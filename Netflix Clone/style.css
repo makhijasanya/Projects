@@ -274,3 +274,46 @@ input[type="radio"]{
     color: #777;
 
 }
+
+
+
+
+/* --------media queries for small screen---- */
+
+
+/* isme jo b likhenge 600px vale section me hi lgegi */
+@media only screen and (max-width:600px){
+    .logo{
+        width: 100px;
+
+    }
+    nav button{
+        padding: 5px 10px;
+    }
+    nav .language-btn{
+        padding: 5px 10px;
+
+    }
+
+    .header-content{
+        position: unset;
+        transform: none;
+        padding-top: 50px ;
+        
+
+
+    }
+    .header-content h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .email-signup button{
+        font-size: 12px;
+        padding: 10px 15px;
+
+
+    }
+
+    
+
+}
